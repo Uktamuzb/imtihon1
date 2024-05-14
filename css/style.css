@@ -1,5 +1,5 @@
 header {
-  padding: 15px;
+  padding: 27px !important;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,10 +69,12 @@ header .header__ul a {
   gap: 36px;
 }
 .services__box__container .service__boxs {
+  margin-top: 15px;
   border-radius: 20px;
   padding: 25px;
   box-shadow: 10px 40px 50px 50px rgba(229, 233, 246, 0.4);
   background: white;
+  text-align: left;
 }
 .services__box__container .service__boxs img {
   margin-bottom: 30px;

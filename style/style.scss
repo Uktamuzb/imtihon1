@@ -2,7 +2,7 @@ $light-blue: rgba(69, 143, 246, 1);
 
 // header style start
 header {
-    padding: 15px;
+    padding: 27px !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -81,11 +81,12 @@ header {
     gap: 36px;
 
     .service__boxs {
+        margin-top: 15px;
         border-radius: 20px;
         padding: 25px;
         box-shadow: 10px 40px 50px 50px #E5E9F666;
         background: #ffff;
-
+        text-align: left;
         img {
             margin-bottom: 30px;
         }
